@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".screen.characterGraph.CharacterGraphFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:textAlignment="viewStart"
+        android:theme="@style/ThemeOverlay.AppCompat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.otaliastudios.zoom.ZoomLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:hasClickableChildren="true"
+        android:scrollbars="vertical|horizontal"
+        >
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="?attr/actionBarSize"
+            tools:listitem="@layout/node"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.otaliastudios.zoom.ZoomLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

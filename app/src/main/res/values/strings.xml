@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">LitPantry</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fildEmpty">Поле не заполнено</string>
+    <string name="titleName">Title</string>
+    <string name="add">add</string>
+    <string name="add_book">Это кнопка добавляет книгу</string>
+    <string name="title">Название</string>
+    <string name="author">Автор</string>
+    <string name="year_create">Год создания</string>
+    <string name="saveBook">Эта кнопка сохраняет книгу</string>
+    <string name="author_txt">Автор</string>
+    <string name="delete">Удалить</string>
+    <string name="Characters">Персонажи</string>
+    <string name="ADD"> Добавить</string>
+    <string name="titleOther">Заголовок</string>
+    <string name="info">информация информация информация информация информация информация информация</string>
+    <string name="title_other">Заголовок</string>
+    <string name="text">Текст</string>
+    <string name="read">Прочитать до (введите дату)</string>
+    <string name="_15_05_2023">ДО:15/05/2023</string>
+    <string name="titile">Название: </string>
+    <string name="authorr">Автор: </string>
+    <string name="yearr">Год: </string>
+    <string name="dop_inf">Дополнительная информация</string>
+    <string name="character">Персонаж</string>
+    <string name="input_character_name">Введите имя персонажа</string>
+    <string name="charName">Персонаж:</string>
+    <string name="biography">  Биография</string>
+    <string name="portret">Портрет</string>
+    <string name="relation">Отношения</string>
+    <string name="quotes">Цитаты</string>
+    <string name="otherChar">  Другое</string>
+    <string name="docx">Скачать .docx</string>
+    <string name="update">Редактировать</string>
+    <string name="remove">Удалить</string>
+
+
+    <string name="material_calendar_monday">Пн</string>
+    <string name="material_calendar_tuesday">Вт</string>
+    <string name="material_calendar_wednesday">Ср</string>
+    <string name="material_calendar_thursday">Чт</string>
+    <string name="material_calendar_friday">Пт</string>
+    <string name="material_calendar_saturday">Сб</string>
+    <string name="material_calendar_sunday">Вс</string>
+
+    <array name="material_calendar_months_array">
+        <item>Январь</item>
+        <item>Февраль</item>
+        <item>Mарт</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+    </array>
+
+    <string name="material_calendar_today_button">Сегодня</string>
+    <string name="material_calendar_positive_button">OK</string>
+    <string name="material_calendar_negative_button">Отмена</string>
+</resources>

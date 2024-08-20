@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_char"
+        android:title="@string/Characters"
+        android:icon="@drawable/ic_comedy"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+    android:id="@+id/item_doc"
+    android:title="Просмотреть"
+    />
+    <item
+        android:id="@+id/item_change"
+        android:title="Редактировать"
+        />
+
+
+
+    <item
+        android:id="@+id/item_delete"
+        android:title="@string/delete"
+        android:icon="@drawable/ic_delete"
+        />
+
+
+</menu>

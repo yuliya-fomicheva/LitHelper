@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.litpantry.screen.start.StartFragment"
+        android:label="Список книг"
+        tools:layout="@layout/fragment_start" >
+        <action
+            android:id="@+id/action_startFragment_to_addFragment"
+            app:destination="@id/addFragment" />
+        <action
+            android:id="@+id/action_startFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_startFragment_to_calendarFragment"
+            app:destination="@id/calendarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="com.example.litpantry.screen.add.AddFragment"
+        android:label="Редактировать книгу"
+        tools:layout="@layout/fragment_add" >
+        <action
+            android:id="@+id/action_addFragment_to_startFragment"
+            app:destination="@id/startFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.litpantry.screen.details.DetailFragment"
+        android:label=" "
+        tools:layout="@layout/fragment_detail" >
+        <action
+            android:id="@+id/action_detailFragment_to_startFragment"
+            app:destination="@id/startFragment" />
+        <action
+            android:id="@+id/action_detailFragment_to_characterFragment"
+            app:destination="@id/characterFragment" />
+        <action
+            android:id="@+id/action_detailFragment_to_characterGraphFragment"
+            app:destination="@id/characterGraphFragment" />
+        <action
+            android:id="@+id/action_detailFragment_to_readAllAboutBookFragment"
+            app:destination="@id/readAllAboutBookFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/characterFragment"
+        android:name="com.example.litpantry.screen.character.CharacterFragment"
+        android:label=""
+        tools:layout="@layout/fragment_character" >
+        <action
+            android:id="@+id/action_characterFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/characterGraphFragment"
+        android:name="com.example.litpantry.screen.characterGraph.CharacterGraphFragment"
+        android:label=""
+        tools:layout="@layout/fragment_character_graph" >
+        <action
+            android:id="@+id/action_characterGraphFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.example.litpantry.screen.calendar.CalendarFragment"
+        android:label="Календарь"
+        tools:layout="@layout/fragment_calendar"  >
+        <action
+            android:id="@+id/action_calendarFragment_to_startFragment"
+            app:destination="@id/startFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/readAllAboutBookFragment"
+        android:name="com.example.litpantry.screen.allAboytBook.ReadAllAboutBookFragment"
+        android:label=""
+        tools:layout="@layout/fragment_read_all_about_book" >
+        <action
+            android:id="@+id/action_readAllAboutBookFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+</navigation>
